@@ -1,0 +1,85 @@
+:root {
+  --primary: #0d47a1;
+  --primary-dark: #002171;
+  --primary-light: #5472d3;
+  --primary-text: #ffffff;
+}
+
+html {
+  background: linear-gradient(to right, #187fc4, #acd4bb)
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+  background: linear-gradient(to right, #187fc4, #acd4bb);
+  color: var(--primary-text);
+  padding: 8px;
+}
+
+h2 {
+  font-size: 18px;
+  color: var(--primary-text);
+}
+
+.score {
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  background-color: var(--primary-dark);
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--primary);
+}
+
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.container-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  margin: 10px;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  background-color: var(--primary-text);
+  color: var(--primary-text);
+}
+
+.round-btn {
+  width: 60px;
+  height: auto;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-dark);
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.round-btn:hover {
+  background-color: var(--primary-light);
+  transition: 0.1s;
+}
